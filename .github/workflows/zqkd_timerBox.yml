@@ -6,7 +6,7 @@ name: zqkd_timerBox
 on:
     workflow_dispatch:
     schedule:
-        - cron: "1-59/15 7-22 * * *"
+        - cron: "1-59/15 7-20 * * *"
     watch:
         types: [started]
     repository_dispatch:
