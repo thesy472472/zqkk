@@ -6,7 +6,7 @@ name: zqkd_shareRead
 on:
     workflow_dispatch:
     schedule:
-        - cron: "40 7,18 * * *"
+        - cron: "40 23,10 * * *"
     watch:
         types: [started]
     repository_dispatch:
